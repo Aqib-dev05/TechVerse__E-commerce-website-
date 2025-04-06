@@ -6,13 +6,12 @@
 header nav {
   color: white;
   background: #000;
-  padding-inline:2rem;
+  padding-inline: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100px;
   z-index: 100;
-
 }
 header nav .logo h2 {
   font-size: 1.7rem;
@@ -656,4 +655,50 @@ hr {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.727);
   padding-bottom: 2rem;
+}
+/*menu button*/
+.menu-btn {
+  font-size: 25px;
+  display: none;
+  padding-top: 5px;
+}
+.menu-btn .menu-btn-links {
+  background-color: #ffffff2e;
+  position: absolute;
+  left: 0;
+  top:110px;
+  list-style: none;
+  width: 100vw;
+  height: 270px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding-top: 15px;
+  display: none;
+  text-align: center;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  z-index: 500;
+}
+.menu-btn.active .menu-btn-links {
+  display: block;
+}
+.menu-btn-links li a {
+  color: rgba(255, 255, 255, 0.546);
+  text-decoration: none;
+  font-size: 24px;
+  &:hover{
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .menu-btn {
+    display: block;
+  }
+  nav .nav-links{
+    display: none;
+  }
 }
