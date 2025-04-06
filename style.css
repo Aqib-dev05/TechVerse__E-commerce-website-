@@ -277,6 +277,7 @@ header nav .logo h2 {
   color: white;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .VR-banner .vr-content {
   height: 100%;
