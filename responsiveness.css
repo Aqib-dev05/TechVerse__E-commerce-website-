@@ -1,5 +1,8 @@
 @media screen and (max-width: 420.8px) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16b237805b0936f74744f9520f651c4c1f8176e5
   header nav {
     padding-inline: 1rem;
     justify-content: space-between;
@@ -301,7 +304,10 @@
   }
 }
 @media screen and (min-width: 421px) and (max-width: 600.8px) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16b237805b0936f74744f9520f651c4c1f8176e5
   header nav {
     padding-inline: 1.3rem;
     justify-content: space-between;
@@ -605,7 +611,11 @@
   }
 }
 @media screen and (min-width: 601px) and (max-width: 766.8px) {
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 16b237805b0936f74744f9520f651c4c1f8176e5
   header nav {
     padding-inline: 1.8rem;
     justify-content: space-between;
@@ -1220,7 +1230,11 @@
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1250.8px) {
+<<<<<<< HEAD
  
+=======
+  
+>>>>>>> 16b237805b0936f74744f9520f651c4c1f8176e5
   header nav {
     padding-inline: 3rem;
     justify-content: space-between;
