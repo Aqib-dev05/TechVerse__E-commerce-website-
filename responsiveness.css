@@ -1,7 +1,5 @@
 @media screen and (max-width: 420.8px) {
-  body {
-    background-color: rgb(195, 108, 108);
-  }
+
   header nav {
     padding-inline: 1rem;
     justify-content: space-between;
@@ -303,9 +301,7 @@
   }
 }
 @media screen and (min-width: 421px) and (max-width: 600.8px) {
-  body {
-    background-color: rgb(122, 220, 134);
-  }
+
   header nav {
     padding-inline: 1.3rem;
     justify-content: space-between;
@@ -609,9 +605,7 @@
   }
 }
 @media screen and (min-width: 601px) and (max-width: 766.8px) {
-  body {
-    background-color: rgb(107, 83, 190);
-  }
+
   header nav {
     padding-inline: 1.8rem;
     justify-content: space-between;
@@ -917,9 +911,7 @@
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1023.8px) {
-  body {
-    background-color: rgb(218, 104, 220);
-  }
+ 
   header nav {
     padding-inline: 2.3rem;
     justify-content: space-between;
@@ -1228,9 +1220,7 @@
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1250.8px) {
-  body {
-    background-color: rgb(106, 207, 214);
-  }
+ 
   header nav {
     padding-inline: 3rem;
     justify-content: space-between;
@@ -1463,9 +1453,7 @@
   }
 }
 @media screen and (min-width: 1251px) and (max-width: 1440px) {
-  body {
-    background-color: chocolate;
-  }
+ 
   .banner {
     padding-top: 30px;
     height: 100vh;
