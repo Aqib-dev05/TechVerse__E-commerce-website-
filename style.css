@@ -694,7 +694,6 @@ hr {
     color: white;
   }
 }
-
 @media screen and (max-width: 1250px) {
   .menu-btn {
     display: block;
